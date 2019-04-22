@@ -14,9 +14,9 @@ const routeConfig: RouteProps[] = [
 export const routes: JSX.Element = (
   <Switch>
     {
-      routeConfig.map((routeProps: RouteProps) => {
+      routeConfig.map((routeProps: RouteProps, i: number) => {
         return (
-          <Route {...routeProps} />
+          <Route key={i} {...routeProps} />
         );
       })
     }
