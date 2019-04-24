@@ -24,6 +24,7 @@ const config = {
     modules: [path.resolve(__dirname, 'node_modules')],
     alias: {
       components: path.resolve(__dirname, 'src', 'app', 'components'),
+      styledComponents: path.resolve(__dirname, 'src', 'app', 'components', 'styledComponents'),
       containers: path.resolve(__dirname, 'src', 'app', 'containers'),
       constants: path.resolve(__dirname, 'src', 'app', 'constants'),
       services: path.resolve(__dirname, 'src', 'app', 'services'),

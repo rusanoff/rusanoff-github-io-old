@@ -9,6 +9,26 @@ const routeConfig: RouteProps[] = [
     component: MainScreen,
     exact: true,
   },
+  {
+    path: '/about',
+    component: MainScreen,
+    exact: true,
+  },
+  {
+    path: '/portfolio',
+    component: MainScreen,
+    exact: true,
+  },
+  {
+    path: '/art',
+    component: MainScreen,
+    exact: true,
+  },
+  {
+    path: '/contacts',
+    component: MainScreen,
+    exact: true,
+  },
 ];
 
 export const routes: JSX.Element = (

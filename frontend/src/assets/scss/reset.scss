@@ -1,5 +1,6 @@
 *, ::before, ::after {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -21,6 +22,8 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
 }
 
 html, body {

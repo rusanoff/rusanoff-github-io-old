@@ -1,7 +1,6 @@
-import './MainScreen.scss';
-
 import React from 'react';
-import {Layout} from 'components/Layout/Layout';
+
+import {Layout} from 'components/Layout';
 
 export const MainScreen: React.FunctionComponent = (): JSX.Element => {
   return (
