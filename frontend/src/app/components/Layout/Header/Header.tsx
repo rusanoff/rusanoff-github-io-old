@@ -4,7 +4,7 @@ import {INavigationItem} from 'types/index';
 
 import {Navigation} from 'components/Navigation';
 
-import {Header} from 'styledComponents/Header';
+import {StyledHeader} from 'styledComponents/StyledHeader';
 import {Logo, LogoImage} from 'styledComponents/Logo';
 
 const menuItems: INavigationItem[] = [
@@ -30,14 +30,14 @@ const menuItems: INavigationItem[] = [
   },
 ];
 
-export const LayoutHeader: React.FunctionComponent = (): JSX.Element => {
+export const Header: React.FunctionComponent = (): JSX.Element => {
   return (
-    <Header>
+    <StyledHeader>
       <Logo to="/">
         <LogoImage/>
         Rusanoff
       </Logo>
       <Navigation items={menuItems}/>
-    </Header>
+    </StyledHeader>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {LayoutHeader} from 'components/Layout/LayoutHeader';
-import {LayoutFooter} from 'components/Layout/LayoutFooter';
+import {Header} from 'components/Layout/Header';
+import {Footer} from 'components/Layout/Footer';
 
 import {Wrapper} from 'styledComponents/Wrapper';
 import {Container} from 'styledComponents/Container';
@@ -9,14 +9,14 @@ import {Container} from 'styledComponents/Container';
 export const Layout: React.FunctionComponent = ({children}): JSX.Element => {
   return (
     <Wrapper>
-      <LayoutHeader/>
+      <Header/>
       <Container>
         <div>
           {children}
         </div>
         {/*<Scroll></Scroll>*/}
       </Container>
-      <LayoutFooter/>
+      <Footer/>
     </Wrapper>
   );
 };
