@@ -15,9 +15,14 @@ interface ILanguageProps {
   lang: string;
 }
 
+interface IStyledLangChangerProps {
+  open: boolean;
+}
+
 export {
   INavigationItem,
   INavigationProps,
   INavBurgerItemProps,
   ILanguageProps,
+  IStyledLangChangerProps,
 };
