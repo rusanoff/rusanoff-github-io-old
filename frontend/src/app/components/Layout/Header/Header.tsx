@@ -1,11 +1,8 @@
 import React from 'react';
-
-import {INavigationItem} from 'types/index';
-
-import {Navigation} from 'components/Navigation';
-
 import {StyledHeader} from 'styledComponents/StyledHeader';
 import {Logo, LogoImage} from 'styledComponents/Logo';
+import {Navigation, Navigation} from 'components/Navigation';
+import {INavigationItem} from 'types/index';
 
 const menuItems: INavigationItem[] = [
   {
@@ -21,7 +18,7 @@ const menuItems: INavigationItem[] = [
     link: '/portfolio',
   },
   {
-    name: 'Искусство CSS',
+    name: 'Искусство',
     link: '/art',
   },
   {

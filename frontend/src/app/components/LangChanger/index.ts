@@ -1,1 +1,0 @@
-export {LangChanger} from './LangChanger';

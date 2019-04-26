@@ -1,1 +1,1 @@
-export {Wrapper} from './Wrapper';
+export {Wrapper, ScreenWrapper} from './Wrapper';

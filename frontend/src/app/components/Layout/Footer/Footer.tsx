@@ -1,16 +1,18 @@
 import React from 'react';
-
-import {LangChanger} from 'components/LangChanger';
-import {Info, InfoParagraph, InfoTitle, StyledFooter} from 'styledComponents/StyledFooter';
+import {StyledFooter} from 'styledComponents/StyledFooter';
+import {Watermark, WatermarkParagraph, WatermarkTitle} from 'styledComponents/Watermark';
+import {PageNumber} from 'styledComponents/PageNumber';
 
 export const Footer: React.FunctionComponent = (): JSX.Element => {
   return (
     <StyledFooter>
-      <Info>
-        <InfoTitle>Андрей Русанов</InfoTitle>
-        <InfoParagraph>Frontend | Full Stack разработчик</InfoParagraph>
-      </Info>
-      <LangChanger lang="ru"/>
+      <Watermark>
+        <WatermarkTitle>Андрей Русанов</WatermarkTitle>
+        <WatermarkParagraph>Frontend | Full Stack разработчик</WatermarkParagraph>
+      </Watermark>
+      <PageNumber>
+        01
+      </PageNumber>
     </StyledFooter>
   );
 };

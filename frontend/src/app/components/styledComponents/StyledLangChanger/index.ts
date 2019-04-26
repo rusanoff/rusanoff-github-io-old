@@ -1,1 +1,0 @@
-export {StyledLangChanger} from './StyledLangChanger';

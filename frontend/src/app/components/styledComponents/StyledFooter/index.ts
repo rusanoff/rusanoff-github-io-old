@@ -1,1 +1,1 @@
-export {StyledFooter, Info, InfoTitle, InfoParagraph} from './StyledFooter';
+export {StyledFooter} from './StyledFooter';
